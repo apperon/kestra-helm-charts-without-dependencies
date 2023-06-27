@@ -9,8 +9,7 @@ jobs:
   build:
     name: Helm Publish
     runs-on: ubuntu-latest
-    env:
-      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
     steps:
       - uses: actions/checkout@v3
 
@@ -22,21 +21,8 @@ jobs:
 
       - uses: J12934/helm-gh-pages-action@v2.0.0
         with:
-          access-token: ${{ secrets.GITHUB_ACCESS_TOKEN }}
+          # access-token: ${{ secrets.GITHUB_ACCESS_TOKEN }}
+          access-token: ${{ secrets.GITHUB_TOKEN }}
           charts-folder: "charts"
           deploy-branch: gh-pages
 
-      # Slack
-      - name: Slack notification
-        uses: 8398a7/action-slack@v3
-        if: ${{ always() && env.SLACK_WEBHOOK_URL != 0 }}
-        with:
-          status: ${{ job.status }}
-          job_name: Helm Publish
-          fields: repo,message,commit,author,action,eventName,ref,workflow,job,took
-          username: GitHub Actions
-          icon_emoji: ':github-actions:'
-          channel: 'C02DQ1A7JLR'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

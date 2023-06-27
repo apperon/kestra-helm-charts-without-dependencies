@@ -10,7 +10,7 @@ keywords:
   - workflow
 icon: https://kestra.io/favicon-192x192.png
 sources:
-  - https://github.com/kestra-io/helm-charts
+  - https://github.com/apperon/kestra-helm-charts-without-dependencies
 maintainers:
   - name: tchiotludo
     email: tchiot.ludo@gmail.com

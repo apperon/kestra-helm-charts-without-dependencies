@@ -1,10 +1,8 @@
 # Kestra Helm Charts
 
-<p align="center">
-  <img width="460" src="https://kestra.io/logo.svg"  alt="Kestra workflow orchestrator" />
-</p>
+# Without dependencies Fork
 
-![Kestra orchestrator](https://kestra.io/ui.gif)
+🚨 This fork was created to use the Helm Chart without dependencies. The database and other dependencies must therefore be created separately. 🚨 
 
 ## Documentation
 * The official Kestra documentation can be found under: [kestra.io](https://kestra.io)
