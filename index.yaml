@@ -30,9 +30,9 @@ entries:
           url: https://raw.githubusercontent.com/kestra-io/kestra.io/master/docs/user-interface-guide/assets/12.png
     apiVersion: v1
     appVersion: 0.5.1
-    created: "2023-06-27T18:08:13.137027451Z"
+    created: "2023-06-27T18:37:36.921462606Z"
     description: infinitely scalable open source orchestration & scheduling platform.
-    digest: 4a8fdaaf8599af5a924be33b0efe810e57323229c5db475418ff214e678aa4b4
+    digest: 36b1e4995abbe3cf2763fdee3b0d82f294d75477ecf21c8fe67a17534527b268
     home: https://kestra.io
     icon: https://kestra.io/favicon-192x192.png
     keywords:
@@ -78,7 +78,7 @@ entries:
           url: https://raw.githubusercontent.com/kestra-io/kestra.io/master/docs/user-interface-guide/assets/12.png
     apiVersion: v1
     appVersion: 0.5.0
-    created: "2023-06-27T18:08:13.135864987Z"
+    created: "2023-06-27T18:37:36.919327615Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -139,7 +139,7 @@ entries:
           url: https://raw.githubusercontent.com/kestra-io/kestra.io/master/docs/user-interface-guide/assets/12.png
     apiVersion: v1
     appVersion: 0.4.4
-    created: "2023-06-27T18:08:13.121859427Z"
+    created: "2023-06-27T18:37:36.902327494Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -200,7 +200,7 @@ entries:
           url: https://raw.githubusercontent.com/kestra-io/kestra.io/master/docs/user-interface-guide/assets/12.png
     apiVersion: v1
     appVersion: 0.4.3
-    created: "2023-06-27T18:08:13.108866834Z"
+    created: "2023-06-27T18:37:36.88643342Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -261,7 +261,7 @@ entries:
           url: https://raw.githubusercontent.com/kestra-io/kestra.io/master/docs/user-interface-guide/assets/12.png
     apiVersion: v1
     appVersion: 0.4.2
-    created: "2023-06-27T18:08:13.095827143Z"
+    created: "2023-06-27T18:37:36.871404082Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -322,7 +322,7 @@ entries:
           url: https://raw.githubusercontent.com/kestra-io/kestra.io/master/docs/user-interface-guide/assets/12.png
     apiVersion: v1
     appVersion: 0.4.1
-    created: "2023-06-27T18:08:13.08254886Z"
+    created: "2023-06-27T18:37:36.855487107Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -387,7 +387,7 @@ entries:
           url: https://raw.githubusercontent.com/kestra-io/kestra.io/master/docs/user-interface-guide/assets/12.png
     apiVersion: v1
     appVersion: 0.4.0
-    created: "2023-06-27T18:08:13.069925356Z"
+    created: "2023-06-27T18:37:36.840577374Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -452,7 +452,7 @@ entries:
           url: https://raw.githubusercontent.com/kestra-io/kestra.io/master/docs/user-interface-guide/assets/12.png
     apiVersion: v1
     appVersion: 0.3.1
-    created: "2023-06-27T18:08:13.056930763Z"
+    created: "2023-06-27T18:37:36.824487892Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -482,7 +482,7 @@ entries:
     version: 0.2.6
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2023-06-27T18:08:13.048188838Z"
+    created: "2023-06-27T18:37:36.814905986Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -501,7 +501,7 @@ entries:
     version: 0.2.5
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2023-06-27T18:08:13.039156221Z"
+    created: "2023-06-27T18:37:36.804271434Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -520,7 +520,7 @@ entries:
     version: 0.2.4
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2023-06-27T18:08:13.031009377Z"
+    created: "2023-06-27T18:37:36.793379372Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -539,7 +539,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2023-06-27T18:08:13.021692169Z"
+    created: "2023-06-27T18:37:36.784197783Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -558,7 +558,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2023-06-27T18:08:13.012986942Z"
+    created: "2023-06-27T18:37:36.772217975Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -577,7 +577,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2023-06-27T18:08:13.004398711Z"
+    created: "2023-06-27T18:37:36.763002684Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -596,7 +596,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2023-06-27T18:08:12.996394163Z"
+    created: "2023-06-27T18:37:36.752393434Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -615,7 +615,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2023-06-27T18:08:12.98466943Z"
+    created: "2023-06-27T18:37:36.738829658Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -634,7 +634,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2023-06-27T18:08:12.979873881Z"
+    created: "2023-06-27T18:37:36.732893707Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -653,7 +653,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2023-06-27T18:08:12.973974166Z"
+    created: "2023-06-27T18:37:36.71835929Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -672,7 +672,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2023-06-27T18:08:12.969250114Z"
+    created: "2023-06-27T18:37:36.712794354Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -689,4 +689,4 @@ entries:
     urls:
     - kestra-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-27T18:08:12.964127275Z"
+generated: "2023-06-27T18:37:36.705641351Z"
