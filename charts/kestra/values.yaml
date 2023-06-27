@@ -104,55 +104,6 @@ dind:
     runAsUser: 1000
     runAsGroup: 1000
 
-
-### Kafka
-kafka:
-  enabled: false
-
-### ElasticSearch
-elasticsearch:
-  enabled: false
-  clusterName: "es-kestra"
-
-  esConfig:
-    elasticsearch.yml: |
-      xpack:
-        security:
-          enabled: false
-
-  antiAffinity: "soft"
-
-  roles:
-    ml: "false"
-
-
-### Minio
-minio:
-  enabled: true
-  rootUser: please-change-me
-  rootPassword: its-not-a-secret
-  mode: standalone
-  persistence:
-    size: 8Gi
-  buckets:
-    - name: kestra
-      policy: none
-      purge: false
-
-
-### Postgresql
-postgresql:
-  enabled: true
-  auth:
-    database: kestra
-    username: kestra
-    password: kestra
-
-  primary:
-    persistence:
-      enabled: true
-      size: 8Gi
-
 ### Service
 service:
   type: ClusterIP
